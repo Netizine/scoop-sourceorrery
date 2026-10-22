@@ -1,0 +1,33 @@
+{
+    "version": "0.1.4",
+    "description": "Encrypted local secrets vault with an Azure Key Vault-style lifecycle API",
+    "homepage": "https://sourceorrery.ai",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-x86_64-pc-windows-msvc.zip",
+            "hash": "b982b88ece5907c9f41a2f210dcd57b20106c42cadae55732d78c0b05ee942f2"
+        },
+        "arm64": {
+            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-aarch64-pc-windows-msvc.zip",
+            "hash": "142272190dc622716f71ee0622ab0b7a7bb32d1d8dd68d3013ffe01200641e0a"
+        }
+    },
+    "bin": "sourceorrery.exe",
+    "checkver": {
+        "github": "https://github.com/Netizine/sourceorrery"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Netizine/sourceorrery/releases/download/v$version/sourceorrery-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Netizine/sourceorrery/releases/download/v$version/sourceorrery-$version-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
