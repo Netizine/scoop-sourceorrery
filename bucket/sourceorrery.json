@@ -1,6 +1,6 @@
 {
     "version": "0.1.4",
-    "description": "Encrypted local secrets vault with an Azure Key Vault-style lifecycle API",
+    "description": "Encrypted local secrets vault with a cloud-secrets-manager-style lifecycle API",
     "homepage": "https://sourceorrery.ai",
     "license": "MIT|Apache-2.0",
     "architecture": {
