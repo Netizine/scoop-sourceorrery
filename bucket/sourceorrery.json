@@ -1,16 +1,16 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Encrypted local secrets vault with a cloud-secrets-manager-style lifecycle API",
     "homepage": "https://sourceorrery.ai",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-x86_64-pc-windows-msvc.zip",
-            "hash": "e7baf5048fe849f0b77f65a2b629ddf72b44431f8b1e0e132345963fe03ed5d7"
+            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-x86_64-pc-windows-msvc.zip",
+            "hash": "bebb31ecac72d1b38c4317cdc78aa9a33b6a798137c3d49e80f9c21356703e32"
         },
         "arm64": {
-            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-aarch64-pc-windows-msvc.zip",
-            "hash": "61aaa34b00afb433144aa63e085242311bb88a73533acf98dd003b2decf7d761"
+            "url": "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-aarch64-pc-windows-msvc.zip",
+            "hash": "3643ea4aa306277ea50c4d4b5a6ed4aaadf1ba8a1977e7d0e78b8e5068c5f094"
         }
     },
     "bin": "sourceorrery.exe",
